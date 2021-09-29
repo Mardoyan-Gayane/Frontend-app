@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   display: flex;
+   justify-content: center;
+}
+.container {
+    max-width: 1182px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    max-width: 1182px;
+    height: 100px;
+    padding: 20px 30px;
+    box-sizing:border-box;
+    margin-bottom: 20px;
+    
+    background: #5485A0;
+}
+.header span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 22px 50px 22px 0px;
+
+    color: #FFFFFF;
+}
+.left_sidebar {
+    display: flex;
+    flex-basis: 24%;
+    max-width: 280px;
+    height: 800px;
+
+    background: #B3A38B;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 48%;
+    max-width: 580px;
+    height: 800px;
+    padding: 37px;
+    box-sizing:border-box;
+
+    background: #C4C4C4;
+}
+.main h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 22px;
+
+    color: #000000;
+}
+.main p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+.right_sidebar {
+    display: flex;
+    flex-basis: 24%;
+    width: 280px;
+    height: 800px;
+
+    background: #689333;
+}
+.footer {
+    display: flex;
+    flex-basis: 100%;
+    max-width: 1180px;
+    height: 75px;
+    box-sizing: border-box;
+    padding: 30px 0 29px 28px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    background: #8854A0;
+}
+.footer ul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+}
+.footer ul li {
+    list-style-type: none;
+    display: inline;
+}
+.footer ul li:not(:first-child):before {
+    content: " | ";
+}
+.footer span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
